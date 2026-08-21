@@ -9,7 +9,6 @@ const homepage = await readFile(
 
 test("homepage describes the implemented display controls", () => {
   assert.match(homepage, /Display toggles/);
-  assert.match(homepage, /See each display and its resolution/);
   assert.match(homepage, /Start at login/);
   assert.match(homepage, /Displays turned off by Display Toggle stay in the menu/);
 });
@@ -17,4 +16,9 @@ test("homepage describes the implemented display controls", () => {
 test("homepage does not advertise an audio selection feature", () => {
   assert.doesNotMatch(homepage, /Audio output/);
   assert.doesNotMatch(homepage, /Choose the audio device/);
+});
+
+test("homepage does not list display inventory as a separate feature", () => {
+  assert.doesNotMatch(homepage, /Display list/);
+  assert.doesNotMatch(homepage, /See each display and its resolution/);
 });
