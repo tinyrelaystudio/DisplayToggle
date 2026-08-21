@@ -8,7 +8,8 @@ const homepage = await readFile(
 );
 
 test("homepage describes the implemented display controls", () => {
-  assert.match(homepage, /Display toggles/);
+  assert.match(homepage, /Disconnect and reconnect/);
+  assert.match(homepage, /Control a display directly from the macOS menu bar/);
   assert.match(homepage, /Start at login/);
   assert.match(homepage, /Displays turned off by Display Toggle stay in the menu/);
 });
@@ -19,6 +20,7 @@ test("homepage does not advertise an audio selection feature", () => {
 });
 
 test("homepage does not list display inventory as a separate feature", () => {
+  assert.doesNotMatch(homepage, /Display toggles/);
   assert.doesNotMatch(homepage, /Display list/);
   assert.doesNotMatch(homepage, /See each display and its resolution/);
 });

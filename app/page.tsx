@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const features = [
-  ["Display toggles", "Disconnect or reconnect a display from the macOS menu bar."],
+  ["Disconnect and reconnect", "Control a display directly from the macOS menu bar."],
   ["Start at login", "Open Display Toggle automatically when you sign in to your Mac."],
   ["Reconnect anytime", "Displays turned off by Display Toggle stay in the menu so you can turn them back on."],
 ];
