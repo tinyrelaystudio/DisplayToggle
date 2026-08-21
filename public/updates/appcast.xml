@@ -1,0 +1,49 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>DisplayToggle</title>
+        <item>
+            <title>1.0</title>
+            <pubDate>Fri, 21 Aug 2026 16:53:16 +0300</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Display Toggle 1.0
+
+The first public release.
+
+## Highlights
+
+- Disable and reconnect MacBook or external displays directly from the menu bar.
+- Disabled displays remain available so they can be turned on again.
+- Physical display arrivals and removals refresh automatically.
+- Audio follows the active display and remembers outputs connected through a display.
+- Audio already playing through a remaining active display is left unchanged.
+- Start the app automatically when you log in.
+- Try every feature free for 14 days without an account or payment card.
+- Purchase a $5 license directly from the menu or license window.
+- Automatically reconnect disabled displays when trial or license access ends.
+- Restore every inactive display from anywhere with Control–Option–Command–R.
+- Activate a purchased license on up to three personal Macs.
+- Receive signed automatic updates through Sparkle.
+- Available in 20 languages.
+- Native universal build for Apple Silicon and Intel Macs.
+
+Requires macOS 13 Ventura or later. A purchase includes updates through Display
+Toggle 2.x.
+
+## Compatibility note
+
+Disconnecting a display changes the macOS desktop topology. macOS may briefly
+blank a remaining display while reapplying its display mode, especially when
+the main display is part of a Thunderbolt daisy chain. This is system display
+reconfiguration behavior and does not indicate that the cable was disconnected.
+]]></description>
+            <enclosure url="https://tinyrelay.app/updates/DisplayToggle-1.0.zip" length="2757954" type="application/octet-stream" sparkle:edSignature="r2jTpQTPRarvjeye4EkUO6F3ArxdOSNY6h3CkvYRcUWIHTM6XrUwiAhrBYSRHTvYdRWBgvbFbOvlgF7RJneYBw=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: rNyiRPTGQz/9KB3C8U7XGe93r7sBQAwJ3fnVOjSXwRf1IQl5q8VrY3thFaGojKsdEUFaCaCUD9ZJqeN1ej7zAw==
+length: 2513
+-->
