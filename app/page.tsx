@@ -2,9 +2,9 @@ import Image from "next/image";
 
 const features = [
   ["Display toggles", "Disconnect or reconnect a display from the macOS menu bar."],
-  ["Audio output", "Choose the audio device to use when your display setup changes."],
+  ["Display list", "See each display and its resolution before turning it on or off."],
   ["Start at login", "Open Display Toggle automatically when you sign in to your Mac."],
-  ["Restore your setup", "Reconnect a display whenever you want to use it again."],
+  ["Reconnect anytime", "Displays turned off by Display Toggle stay in the menu so you can turn them back on."],
 ];
 
 export default function Home() {
