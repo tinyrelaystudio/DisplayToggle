@@ -28,7 +28,7 @@ a { color: inherit; }
 h1 { margin: 0; font-size: clamp(36px, 5vw, 48px); line-height: 1.08; letter-spacing: -.04em; }
 .lead { max-width: 470px; margin: 18px 0 0; color: var(--muted); font-size: 16px; line-height: 1.6; }
 .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; margin-top: 25px; }
-.download-badge { display: inline-block; width: 220px; max-width: 100%; border-radius: 14px; line-height: 0; transition: opacity 120ms ease, transform 120ms ease; }
+.download-badge { display: inline-block; width: 220px; max-width: 100%; overflow: hidden; border-radius: 14px; line-height: 0; transition: opacity 120ms ease, transform 120ms ease; }
 .download-badge:hover { opacity: .88; transform: translateY(-1px); }
 .download-badge:focus-visible { outline: 3px solid var(--blue); outline-offset: 4px; }
 .download-badge img { display: block; width: 100%; height: auto; }
