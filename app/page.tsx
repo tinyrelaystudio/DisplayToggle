@@ -32,13 +32,13 @@ export default function Home() {
             </p>
             <div className="actions">
               <a
-                className="buy-button"
+                className="button button-primary"
                 href="/downloads/DisplayToggle-1.0-macOS13+.dmg"
                 download
               >
                 Download for Mac OS
               </a>
-              <a className="buy-button" href="/buy">
+              <a className="button button-secondary" href="/buy">
                 Buy License — $5
               </a>
               <a className="text-link" href="#demo">Watch the demo</a>
@@ -80,7 +80,7 @@ export default function Home() {
           <div>
             <h2>Trial and pricing</h2>
             <p>Try every feature free for 14 days. After the trial, Display Toggle costs $5 once.</p>
-            <a className="buy-button pricing-buy" href="/buy">
+            <a className="button button-secondary pricing-buy" href="/buy">
               Buy License — $5
             </a>
           </div>
