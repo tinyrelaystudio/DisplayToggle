@@ -32,18 +32,11 @@ export default function Home() {
             </p>
             <div className="actions">
               <a
-                className="download-badge"
+                className="buy-button"
                 href="/downloads/DisplayToggle-1.0-macOS13+.dmg"
                 download
-                aria-label="Download Display Toggle for Mac OS"
               >
-                <Image
-                  src="/download-for-macos.webp"
-                  width={440}
-                  height={148}
-                  alt="Download for Mac OS"
-                  priority
-                />
+                Download for Mac OS
               </a>
               <a className="buy-button" href="/buy">
                 Buy License — $5
