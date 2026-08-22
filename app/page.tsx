@@ -83,38 +83,33 @@ export default function Home() {
           </ul>
         </section>
 
-        <section className="content-section" id="demo">
+        <section className="content-section demo-section" id="demo">
           <h2>Demo</h2>
           <p>A 16-second recording of the built-in display being disconnected and reconnected.</p>
-          <video controls playsInline preload="metadata" poster="/demo-connected.jpg">
-            <source src="/display-toggle-demo.mp4" type="video/mp4" />
-          </video>
-        </section>
-
-        <section className="content-section price-section" id="pricing">
-          <div>
-            <h2>Trial and pricing</h2>
-            <p>Try every feature free for 14 days. After the trial, Display Toggle costs $5 once.</p>
-            <a className="button button-secondary pricing-buy" href="/buy">
-              Buy License — $5
-            </a>
+          <div className="demo-video-wrapper">
+            <video className="demo-video" controls playsInline preload="metadata" poster="/demo-connected.jpg">
+              <source src="/display-toggle-demo.mp4" type="video/mp4" />
+            </video>
           </div>
-          <ul>
-            <li>No account or payment card for the trial</li>
-            <li>Personal license for up to 3 Macs</li>
-            <li>Includes Display Toggle updates through version 2.x</li>
-            <li>No subscription</li>
-          </ul>
         </section>
 
-        <section className="content-section details-section">
-          <h2>Details</h2>
-          <dl>
-            <div><dt>Requirements</dt><dd>macOS 13 Ventura or later</dd></div>
-            <div><dt>License checks</dt><dd>Internet is required for activation and occasional validation</dd></div>
-            <div><dt>Privacy</dt><dd>Display controls and preferences stay on your Mac</dd></div>
-            <div><dt>Support</dt><dd><a href="mailto:support@tinyrelay.app">support@tinyrelay.app</a></dd></div>
-          </dl>
+        <section className="content-section pricing-section" id="pricing">
+          <div className="pricing-card">
+            <div className="pricing-content">
+              <h2>Trial and pricing</h2>
+              <p>Try every feature free for 14 days. After the trial, Display Toggle costs $5 once.</p>
+              <a className="button button-secondary pricing-buy" href="/buy">
+                Buy License — $5
+              </a>
+            </div>
+            <ul className="pricing-features">
+              <li>No account or payment card for the trial</li>
+              <li>Personal license for up to 3 Macs</li>
+              <li>Includes Display Toggle updates through version 2.x</li>
+              <li>No subscription</li>
+            </ul>
+          </div>
+          <p className="requirements-badge">Requires macOS 13 Ventura or later</p>
         </section>
       </div>
 

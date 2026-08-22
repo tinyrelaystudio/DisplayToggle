@@ -25,6 +25,9 @@
   --feature-card-shadow: 0 14px 30px -26px rgb(33 53 90 / 52%);
   --feature-icon-bg: rgb(47 111 237 / 11%);
   --feature-icon-border: rgb(47 111 237 / 16%);
+  --pricing-card-bg: rgb(255 255 255 / 74%);
+  --requirements-badge-bg: rgb(101 114 138 / 9%);
+  --requirements-badge-border: rgb(101 114 138 / 14%);
 }
 
 * { box-sizing: border-box; }
@@ -66,17 +69,20 @@ h1 { margin: 0; font-size: clamp(36px, 5vw, 48px); line-height: 1.08; letter-spa
 .feature-icon svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.8; }
 .feature-list h3 { margin: 0 0 8px; color: var(--text-primary); font-size: 15px; font-weight: 700; }
 .feature-list p { margin: 0; color: var(--text-secondary); }
-video { display: block; width: min(100%, 760px); border: 1px solid var(--border-color); border-radius: 12px; background: var(--mockup-background); box-shadow: var(--mockup-shadow); }
+.demo-section { display: flex; flex-direction: column; align-items: center; text-align: center; }
+.demo-section > p { margin: -8px auto 34px; }
+.demo-video-wrapper { width: 100%; max-width: 900px; margin: 0 auto; }
+.demo-video { display: block; width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: 12px; background: var(--mockup-background); box-shadow: var(--mockup-shadow); }
 
-.price-section { display: grid; grid-template-columns: .8fr 1fr; gap: 56px; }
-.price-section p { margin: 0; color: var(--text-secondary); font-size: 14px; line-height: 1.6; }
+.pricing-section { width: min(100%, 960px); margin: 0 auto; }
+.pricing-card { display: grid; grid-template-columns: 1.2fr 1fr; gap: 48px; align-items: center; padding: 48px; border: 1px solid var(--border-color); border-radius: 18px; background: var(--pricing-card-bg); box-shadow: var(--mockup-shadow); }
+.pricing-content h2 { margin: 0 0 14px; }
+.pricing-content p { max-width: 430px; margin: 0; color: var(--text-secondary); font-size: 14px; line-height: 1.6; }
 .pricing-buy { margin-top: 20px; }
-.price-section ul { margin: 0; padding-left: 20px; color: var(--text-secondary); font-size: 14px; line-height: 1.9; }
-.details-section dl { margin: 0; }
-.details-section dl > div { display: grid; grid-template-columns: 190px 1fr; gap: 24px; padding: 14px 0; font-size: 13px; line-height: 1.5; }
-.details-section dt { font-weight: 650; }
-.details-section dd { margin: 0; color: var(--text-secondary); }
-.details-section a { color: var(--accent); }
+.pricing-features { display: flex; flex-direction: column; gap: 13px; margin: 0; padding: 0; list-style: none; }
+.pricing-features li { position: relative; padding-left: 19px; color: var(--text-secondary); font-size: 14px; line-height: 1.55; }
+.pricing-features li::before { position: absolute; top: .62em; left: 0; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); content: ""; }
+.requirements-badge { width: fit-content; margin: 20px auto 0; padding: 8px 12px; border: 1px solid var(--requirements-badge-border); border-radius: 999px; background: var(--requirements-badge-bg); color: var(--text-secondary); font-size: 12px; }
 
 footer { width: min(100% - 40px, 960px); min-height: 74px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; color: var(--text-secondary); font-size: 11px; }
 hr { display: none; }
@@ -113,6 +119,9 @@ hr { display: none; }
     --feature-card-shadow: 0 16px 28px -24px rgb(0 0 0 / 80%);
     --feature-icon-bg: rgb(96 165 250 / 14%);
     --feature-icon-border: rgb(147 197 253 / 20%);
+    --pricing-card-bg: rgb(255 255 255 / 3%);
+    --requirements-badge-bg: rgb(255 255 255 / 5%);
+    --requirements-badge-border: rgb(255 255 255 / 10%);
   }
 }
 
@@ -121,7 +130,7 @@ hr { display: none; }
   .intro { grid-template-columns: 1fr; gap: 30px; padding: 44px 0; }
   .feature-list { grid-template-columns: 1fr; }
   .feature-list li { min-height: auto; }
-  .details-section dl > div, .price-section { grid-template-columns: 1fr; gap: 6px; }
+  .pricing-card { grid-template-columns: 1fr; gap: 32px; padding: 30px; }
   .content-section { padding: 56px 0; }
 }
 
