@@ -76,13 +76,14 @@ h1 { margin: 0; font-size: clamp(36px, 5vw, 48px); line-height: 1.08; letter-spa
 
 .pricing-section { width: min(100%, 960px); margin: 0 auto; }
 .pricing-card { display: grid; grid-template-columns: 1.2fr 1fr; gap: 48px; align-items: center; padding: 48px; border: 1px solid var(--border-color); border-radius: 18px; background: var(--pricing-card-bg); box-shadow: var(--mockup-shadow); }
-.pricing-content h2 { margin: 0 0 14px; }
+.pricing-content { display: flex; flex-direction: column; align-items: flex-start; gap: 19px; }
+.pricing-content h2 { margin: 0; }
 .pricing-content p { max-width: 430px; margin: 0; color: var(--text-secondary); font-size: 14px; line-height: 1.6; }
-.pricing-buy { margin-top: 20px; }
+.pricing-buy { margin: 5px 0 0; }
 .pricing-features { display: flex; flex-direction: column; gap: 13px; margin: 0; padding: 0; list-style: none; }
 .pricing-features li { position: relative; padding-left: 19px; color: var(--text-secondary); font-size: 14px; line-height: 1.55; }
 .pricing-features li::before { position: absolute; top: .62em; left: 0; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); content: ""; }
-.requirements-badge { width: fit-content; margin: 20px auto 0; padding: 8px 12px; border: 1px solid var(--requirements-badge-border); border-radius: 999px; background: var(--requirements-badge-bg); color: var(--text-secondary); font-size: 12px; }
+.requirements-badge { grid-column: 1 / -1; width: fit-content; margin: 4px auto 0; padding: 8px 12px; border: 1px solid var(--requirements-badge-border); border-radius: 999px; background: var(--requirements-badge-bg); color: var(--text-secondary); font-size: 12px; }
 
 footer { width: min(100% - 40px, 960px); min-height: 74px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; color: var(--text-secondary); font-size: 11px; }
 hr { display: none; }

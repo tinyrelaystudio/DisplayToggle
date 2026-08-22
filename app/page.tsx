@@ -108,8 +108,8 @@ export default function Home() {
               <li>Includes Display Toggle updates through version 2.x</li>
               <li>No subscription</li>
             </ul>
+            <p className="requirements-badge">Requires macOS 13 Ventura or later</p>
           </div>
-          <p className="requirements-badge">Requires macOS 13 Ventura or later</p>
         </section>
       </div>
 
