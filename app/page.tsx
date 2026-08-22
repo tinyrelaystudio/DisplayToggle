@@ -1,10 +1,24 @@
 import Image from "next/image";
 
-const features = [
-  ["Disconnect and reconnect", "Control a display directly from the macOS menu bar."],
-  ["Start at login", "Open Display Toggle automatically when you sign in to your Mac."],
-  ["Reconnect anytime", "Displays turned off by Display Toggle stay in the menu so you can turn them back on."],
+type FeatureIconName = "display" | "login" | "reconnect";
+
+const features: Array<{ title: string; description: string; icon: FeatureIconName }> = [
+  { title: "Disconnect and reconnect", description: "Control a display directly from the macOS menu bar.", icon: "display" },
+  { title: "Start at login", description: "Open Display Toggle automatically when you sign in to your Mac.", icon: "login" },
+  { title: "Reconnect anytime", description: "Displays turned off by Display Toggle stay in the menu so you can turn them back on.", icon: "reconnect" },
 ];
+
+function FeatureIcon({ name }: Readonly<{ name: FeatureIconName }>) {
+  if (name === "display") {
+    return <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="4.5" width="17" height="11" rx="2" /><path d="M8.5 19.5h7M12 15.5v4" /></svg>;
+  }
+
+  if (name === "login") {
+    return <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h3a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-3" /><path d="M11 8l4 4-4 4M4 12h11" /></svg>;
+  }
+
+  return <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11a8 8 0 0 0-14.8-4.2L3 9" /><path d="M3 4v5h5M4 13a8 8 0 0 0 14.8 4.2L21 15" /><path d="M21 20v-5h-5" /></svg>;
+}
 
 export default function Home() {
   return (
@@ -59,10 +73,11 @@ export default function Home() {
         <section className="content-section" id="features">
           <h2>Features</h2>
           <ul className="feature-list">
-            {features.map(([title, description]) => (
-              <li key={title}>
-                <strong>{title}</strong>
-                <span>{description}</span>
+            {features.map(({ title, description, icon }) => (
+              <li key={title} className="feature-card">
+                <span className="feature-icon" aria-hidden="true"><FeatureIcon name={icon} /></span>
+                <h3>{title}</h3>
+                <p>{description}</p>
               </li>
             ))}
           </ul>
