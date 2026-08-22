@@ -5,7 +5,7 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>DisplayToggle</title>
         <item>
             <title>1.0</title>
-            <pubDate>Sat, 22 Aug 2026 03:40:23 +0300</pubDate>
+            <pubDate>Sat, 22 Aug 2026 04:21:36 +0300</pubDate>
             <sparkle:version>1</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
@@ -40,10 +40,10 @@ blank a remaining display while reapplying its display mode, especially when
 the main display is part of a Thunderbolt daisy chain. This is system display
 reconfiguration behavior and does not indicate that the cable was disconnected.
 ]]></description>
-            <enclosure url="https://tinyrelay.app/updates/DisplayToggle-1.0.zip" length="2759308" type="application/octet-stream" sparkle:edSignature="zFVmizxW3AEa34pezae8eyxSTKEU+BUBPAlJfaJcuv48vKdezAW2NCDWWXDCpWfD+DX1E/x8aSBTXBKoDcz7AA=="></enclosure>
+            <enclosure url="https://tinyrelay.app/updates/DisplayToggle-1.0.zip" length="2759453" type="application/octet-stream" sparkle:edSignature="5PEnZ0cX2TUJGPSV0kTgR0IGGhfzjE6kx/Qq8ALCFA2D4lQNhPkSFAilB8o2YZ33ROTzkrCnMNFgbvaxNouXAQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: R9LwRl3o5r3TGrF7EuE0AGPRvn0dHH8M7hKt5aNpF9/0E6ZNdtsLYN2H4fN/i+/E3oR4ZhofZNzxdtwGpHMECQ==
+edSignature: v5Q7GgGro0QX4EoJp3LOSDbwjy1sUOH0jG/Hh1WWQJAd/7KtLMkyi0Kg7gpV4prhWJ64GoEkLnsCq9FG5NWhDw==
 length: 2513
 -->
