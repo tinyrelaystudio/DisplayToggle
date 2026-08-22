@@ -38,10 +38,11 @@ export default function Home() {
                 aria-label="Download Display Toggle for Mac OS"
               >
                 <Image
-                  src="/download-for-macos.png"
-                  width={2160}
-                  height={728}
+                  src="/download-for-macos.webp"
+                  width={440}
+                  height={148}
                   alt="Download for Mac OS"
+                  priority
                 />
               </a>
               <a className="buy-button" href="/buy">
