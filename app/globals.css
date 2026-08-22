@@ -1,13 +1,13 @@
 :root {
   color-scheme: light dark;
-  --text: #182033;
-  --muted: #667085;
-  --line: #e1e6ee;
-  --blue: #1769e8;
-  --buy-background: #1769e8;
+  --text: #18233b;
+  --muted: #61708a;
+  --line: #d7e0ec;
+  --blue: #3654bd;
+  --buy-background: linear-gradient(135deg, #4165d5 0%, #294aaf 100%);
   --buy-text: #fff;
-  --soft: #f7f8fa;
-  --background: #fff;
+  --soft: #e9eff8;
+  --background: #f3f6fb;
 }
 
 * { box-sizing: border-box; }
@@ -28,8 +28,8 @@ a { color: inherit; }
 h1 { margin: 0; font-size: clamp(36px, 5vw, 48px); line-height: 1.08; letter-spacing: -.04em; }
 .lead { max-width: 470px; margin: 18px 0 0; color: var(--muted); font-size: 16px; line-height: 1.6; }
 .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; margin-top: 25px; }
-.buy-button { display: inline-flex; min-height: 46px; align-items: center; justify-content: center; padding: 0 18px; border-radius: 10px; background: var(--buy-background); color: var(--buy-text); font-size: 13px; font-weight: 700; text-decoration: none; transition: filter 120ms ease, transform 120ms ease; }
-.buy-button:hover { filter: brightness(1.08); transform: translateY(-1px); }
+.buy-button { display: inline-flex; min-height: 46px; align-items: center; justify-content: center; padding: 0 18px; border: 1px solid rgb(31 57 142 / 28%); border-radius: 10px; background: var(--buy-background); box-shadow: 0 4px 10px rgb(41 74 175 / 20%); color: var(--buy-text); font-size: 13px; font-weight: 700; text-decoration: none; transition: box-shadow 120ms ease, filter 120ms ease, transform 120ms ease; }
+.buy-button:hover { box-shadow: 0 7px 16px rgb(41 74 175 / 27%); filter: brightness(1.06); transform: translateY(-1px); }
 .buy-button:focus-visible { outline: 3px solid var(--blue); outline-offset: 4px; }
 .text-link { color: var(--blue); font-size: 13px; font-weight: 600; text-underline-offset: 3px; }
 .requirements { margin: 16px 0 0; color: var(--muted); font-size: 11px; }
@@ -67,10 +67,10 @@ footer { width: min(100% - 40px, 960px); min-height: 74px; margin: 0 auto; displ
     --text: #f0f2f6;
     --muted: #a6afbf;
     --line: #303745;
-    --blue: #72a7ff;
-    --buy-background: #377ddb;
-    --soft: #171b23;
-    --background: #101319;
+    --blue: #91aefe;
+    --buy-background: linear-gradient(135deg, #4a75dd 0%, #3154b6 100%);
+    --soft: #1a2230;
+    --background: #111827;
   }
 }
 
