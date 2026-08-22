@@ -10,7 +10,8 @@ export const metadata: Metadata = {
   title: "Display Toggle — Display control from your Mac menu bar",
   description: "Disconnect or reconnect a Mac display from the menu bar. Try Display Toggle free for 14 days, then buy once for $5.",
   icons: {
-    icon: "https://tinyrelay.app/display-toggle.png",
+    // Keep a versioned URL so third-party launch directories refresh the icon.
+    icon: "https://tinyrelay.app/display-toggle.png?v=2",
   },
   openGraph: {
     title: "Display Toggle — Display control from your Mac menu bar",
