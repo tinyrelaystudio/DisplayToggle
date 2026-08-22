@@ -85,7 +85,7 @@ export default function Home() {
 
         <section className="content-section demo-section" id="demo">
           <h2>Demo</h2>
-          <p>A 16-second recording of the built-in display being disconnected and reconnected.</p>
+          <p>A 9-second recording of the built-in display being disconnected and reconnected.</p>
           <div className="demo-video-wrapper">
             <video className="demo-video" controls playsInline preload="metadata" poster="/demo-connected.jpg">
               <source src="/display-toggle-demo.mp4" type="video/mp4" />
