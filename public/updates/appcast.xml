@@ -4,46 +4,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>DisplayToggle</title>
         <item>
-            <title>1.0</title>
-            <pubDate>Sat, 22 Aug 2026 04:21:36 +0300</pubDate>
-            <sparkle:version>1</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <title>1.01</title>
+            <pubDate>Mon, 05 Oct 2026 03:29:16 +0300</pubDate>
+            <sparkle:version>101</sparkle:version>
+            <sparkle:shortVersionString>1.01</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Display Toggle 1.0
+            <description sparkle:format="markdown"><![CDATA[# Display Toggle 1.01
 
-The first public release.
+## Improvements
 
-## Highlights
-
-- Disable and reconnect MacBook or external displays directly from the menu bar.
-- Disabled displays remain available so they can be turned on again.
-- Physical display arrivals and removals refresh automatically.
-- Audio follows the active display and remembers outputs connected through a display.
-- Audio already playing through a remaining active display is left unchanged.
-- Start the app automatically when you log in.
-- Try every feature free for 14 days without an account or payment card.
-- Purchase a $5 license directly from the menu or license window.
-- Automatically reconnect disabled displays when trial or license access ends.
-- Restore every inactive display from anywhere with Control–Option–Command–R.
-- Activate a purchased license on up to three personal Macs.
-- Receive signed automatic updates through Sparkle.
-- Available in 20 languages.
-- Native universal build for Apple Silicon and Intel Macs.
+- The menu refreshes immediately when displays connect, disconnect, or change
+  configuration.
+- Only displays currently available to macOS appear in the menu.
+- Stale display entries left behind after a display is disconnected are removed.
 
 Requires macOS 13 Ventura or later. A purchase includes updates through Display
 Toggle 2.x.
-
-## Compatibility note
-
-Disconnecting a display changes the macOS desktop topology. macOS may briefly
-blank a remaining display while reapplying its display mode, especially when
-the main display is part of a Thunderbolt daisy chain. This is system display
-reconfiguration behavior and does not indicate that the cable was disconnected.
 ]]></description>
-            <enclosure url="https://tinyrelay.app/updates/DisplayToggle-1.0.zip" length="2759453" type="application/octet-stream" sparkle:edSignature="5PEnZ0cX2TUJGPSV0kTgR0IGGhfzjE6kx/Qq8ALCFA2D4lQNhPkSFAilB8o2YZ33ROTzkrCnMNFgbvaxNouXAQ=="></enclosure>
+            <enclosure url="https://tinyrelay.app/updates/DisplayToggle-1.01.zip" length="2728146" type="application/octet-stream" sparkle:edSignature="59yYw/5JrUfx3hx1yRp3X8urD4ig9IL2/I10Xl/IfAaP81sq3XvBZUjb9TNMRHRhNc6k2GYMUnkqyWSEYZtVAw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: v5Q7GgGro0QX4EoJp3LOSDbwjy1sUOH0jG/Hh1WWQJAd/7KtLMkyi0Kg7gpV4prhWJ64GoEkLnsCq9FG5NWhDw==
-length: 2513
+edSignature: Cls03mq51OeHhz/NV0vm19CS5v6nhKRrKx4icQMSG7kEMjwWJ5PZOqUnSFk2GPMqMxGsvg2LOcO8eGMLNKLAAQ==
+length: 1470
 -->
