@@ -4,26 +4,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>DisplayToggle</title>
         <item>
-            <title>1.02</title>
-            <pubDate>Mon, 12 Oct 2026 21:52:10 +0300</pubDate>
-            <sparkle:version>102</sparkle:version>
-            <sparkle:shortVersionString>1.02</sparkle:shortVersionString>
+            <title>1.03</title>
+            <pubDate>Mon, 12 Oct 2026 22:57:06 +0300</pubDate>
+            <sparkle:version>103</sparkle:version>
+            <sparkle:shortVersionString>1.03</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Display Toggle 1.02
+            <description sparkle:format="markdown"><![CDATA[# Display Toggle 1.03
 
 ## Fix
 
-- If your built-in display was disabled and the connected external display is
-  unplugged, Display Toggle now automatically turns the built-in display back
-  on so you are not left without a visible desktop.
+- When an external display is unplugged while your built-in display is turned
+  off, Display Toggle now reliably turns the built-in display back on, even if
+  macOS briefly removes it from the display list during the switch.
 
 Requires macOS 13 Ventura or later. A purchase includes updates through Display
 Toggle 2.x.
 ]]></description>
-            <enclosure url="https://tinyrelay.app/updates/DisplayToggle-1.02.zip" length="2738919" type="application/octet-stream" sparkle:edSignature="vMKfpn4wjEBZGFmz/fkUhoqbxnzcf7yW1ZedfjZs0Ra05iPolpLNOZ0AmnQVWOkHYSub/JPWIET9SEyaepDzDA=="></enclosure>
+            <enclosure url="https://tinyrelay.app/updates/DisplayToggle-1.03.zip" length="2749307" type="application/octet-stream" sparkle:edSignature="aTSfoS61slNuWkGZIyh2uA4bd6gy7UKhxfTO0L7Qm3l1bBZ5v6JfLy2vEdf8cIcLl9Czy2HQRE+slFebLfdXCA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 8nyjeMVsZbXwUHbRJgNKcVaMm28XTLRke5W0LxcPVGb1iAqGiqOn9vCrIWQWedPdZJ4ubbAVNbCTDft0SyY2Ag==
-length: 1428
+edSignature: 7Vn0ynPtlWQvkXlBUiVaUUJ6Nn0mHymBFDmc1Suj6Qjw+3blVQQVp8iBpAwLM4QdDWgOR6JX9GFHf8/PA+LUCQ==
+length: 1445
 -->
