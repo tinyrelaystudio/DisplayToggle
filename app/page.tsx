@@ -47,7 +47,7 @@ export default function Home() {
             <div className="actions">
               <a
                 className="button button-primary"
-                href="/downloads/DisplayToggle-1.0-macOS13+.dmg"
+                href="/downloads/DisplayToggle-1.02-macOS13+.dmg"
                 download
               >
                 Download for Mac OS
