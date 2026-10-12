@@ -4,27 +4,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>DisplayToggle</title>
         <item>
-            <title>1.01</title>
-            <pubDate>Mon, 05 Oct 2026 03:29:16 +0300</pubDate>
-            <sparkle:version>101</sparkle:version>
-            <sparkle:shortVersionString>1.01</sparkle:shortVersionString>
+            <title>1.02</title>
+            <pubDate>Mon, 12 Oct 2026 14:00:41 +0300</pubDate>
+            <sparkle:version>102</sparkle:version>
+            <sparkle:shortVersionString>1.02</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Display Toggle 1.01
+            <description sparkle:format="markdown"><![CDATA[# Display Toggle 1.02
 
-## Improvements
+## Fix
 
-- The menu refreshes immediately when displays connect, disconnect, or change
-  configuration.
-- Only displays currently available to macOS appear in the menu.
-- Stale display entries left behind after a display is disconnected are removed.
+- If your built-in display was disabled and the connected external display is
+  unplugged, Display Toggle now automatically turns the built-in display back
+  on so you are not left without a visible desktop.
 
 Requires macOS 13 Ventura or later. A purchase includes updates through Display
 Toggle 2.x.
 ]]></description>
-            <enclosure url="https://tinyrelay.app/updates/DisplayToggle-1.01.zip" length="2728146" type="application/octet-stream" sparkle:edSignature="59yYw/5JrUfx3hx1yRp3X8urD4ig9IL2/I10Xl/IfAaP81sq3XvBZUjb9TNMRHRhNc6k2GYMUnkqyWSEYZtVAw=="></enclosure>
+            <enclosure url="https://tinyrelay.app/updates/DisplayToggle-1.02.zip" length="2738082" type="application/octet-stream" sparkle:edSignature="s7iMWR4caS8AQvTSV9tphFhEgrhpHPg9oYsaW5j/JXGxnv5/QvbmGVaL2G0eL6B5qJS0kLB/atnw19BHTodtDA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: Cls03mq51OeHhz/NV0vm19CS5v6nhKRrKx4icQMSG7kEMjwWJ5PZOqUnSFk2GPMqMxGsvg2LOcO8eGMLNKLAAQ==
-length: 1470
+edSignature: lrleqi4DyWMLMSXw8QAhxSZzXzz8womFjXvP56nmpXLZSZE1PvB0UrqmfcxvJfN91gloXB04OUkU7we/1ASpBg==
+length: 1428
 -->
