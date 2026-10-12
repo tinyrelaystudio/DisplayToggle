@@ -4,26 +4,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>DisplayToggle</title>
         <item>
-            <title>1.03</title>
-            <pubDate>Mon, 12 Oct 2026 23:02:23 +0300</pubDate>
-            <sparkle:version>104</sparkle:version>
-            <sparkle:shortVersionString>1.03</sparkle:shortVersionString>
+            <title>1.04</title>
+            <pubDate>Mon, 12 Oct 2026 23:20:14 +0300</pubDate>
+            <sparkle:version>105</sparkle:version>
+            <sparkle:shortVersionString>1.04</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Display Toggle 1.03
+            <description sparkle:format="markdown"><![CDATA[# Display Toggle 1.04
 
-## Fix
+## New
 
-- When an external display is unplugged while your built-in display is turned
-  off, Display Toggle now reliably turns the built-in display back on, even if
-  macOS briefly removes it from the display list during the switch.
+- New Rules section in the menu. The first rule, "Built-in off with external,"
+  is on by default: while an external display is connected, the built-in
+  display is turned off and its switch is locked. Unplugging the external
+  display turns the built-in display back on.
 
 Requires macOS 13 Ventura or later. A purchase includes updates through Display
 Toggle 2.x.
 ]]></description>
-            <enclosure url="https://tinyrelay.app/updates/DisplayToggle-1.03.zip" length="2741899" type="application/octet-stream" sparkle:edSignature="GDmxmZ+/H+/oLdJnsG4NMSyxmI1SY1TnmzNLWfkpeXtdPpFxpHV+/50J9Hpimdt9qgsdo7iawwvGSv+GwkePCA=="></enclosure>
+            <enclosure url="https://tinyrelay.app/updates/DisplayToggle-1.04.zip" length="2750008" type="application/octet-stream" sparkle:edSignature="nL0PiyeIb/pOqIq+cRWQOUBUXa5VdGiMrBU6pYMFpkMTV9ib0Z67x5xcdXgw6ywoo/vqID8Y2BQtTiC34DPHAQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 1wU/XQzoXRdYpEPZ5ygcMBNEX1BymdtJjIoKlnVrgcSn0a0O7pVdllgYHk40MEAndGyImVh+tU/lHJSJh+UZAQ==
-length: 1445
+edSignature: Kxfj6ZwVr4vLgUYflN7vfkG0bL550G0W7p6cIx023cp5cbDKDYpr46UDLicNdc6hZNBEncCdWC8mqurFb8HbCg==
+length: 1492
 -->
