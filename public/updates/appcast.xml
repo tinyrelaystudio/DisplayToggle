@@ -5,8 +5,8 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>DisplayToggle</title>
         <item>
             <title>1.04</title>
-            <pubDate>Mon, 12 Oct 2026 23:20:14 +0300</pubDate>
-            <sparkle:version>105</sparkle:version>
+            <pubDate>Mon, 12 Oct 2026 23:33:09 +0300</pubDate>
+            <sparkle:version>106</sparkle:version>
             <sparkle:shortVersionString>1.04</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description sparkle:format="markdown"><![CDATA[# Display Toggle 1.04
@@ -17,14 +17,16 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   is on by default: while an external display is connected, the built-in
   display is turned off and its switch is locked. Unplugging the external
   display turns the built-in display back on.
+- Checks for updates when the app starts and every hour. When an update is
+  available, the menu shows "Update Available" at the top of the update item.
 
 Requires macOS 13 Ventura or later. A purchase includes updates through Display
 Toggle 2.x.
 ]]></description>
-            <enclosure url="https://tinyrelay.app/updates/DisplayToggle-1.04.zip" length="2750008" type="application/octet-stream" sparkle:edSignature="nL0PiyeIb/pOqIq+cRWQOUBUXa5VdGiMrBU6pYMFpkMTV9ib0Z67x5xcdXgw6ywoo/vqID8Y2BQtTiC34DPHAQ=="></enclosure>
+            <enclosure url="https://tinyrelay.app/updates/DisplayToggle-1.04.zip" length="2755672" type="application/octet-stream" sparkle:edSignature="e3NAfjwY0yAOUeCfyOFuMzi0rjwZRANLoc0rHYIiYTIp251IsnDMUCww0pIi1wKJcJYTAPXZ+3fO13ssPgI1BQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: Kxfj6ZwVr4vLgUYflN7vfkG0bL550G0W7p6cIx023cp5cbDKDYpr46UDLicNdc6hZNBEncCdWC8mqurFb8HbCg==
-length: 1492
+edSignature: qBQx1HFiUZPDPDAvRT3p7Rj1TjjxZ+XpevWWGtmaGf5EtBZPE+1YQanPAqkBeCQ8rdsfYpzuB7Mbp6rRmwQgAw==
+length: 1645
 -->
