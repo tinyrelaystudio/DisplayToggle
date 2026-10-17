@@ -4,27 +4,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>DisplayToggle</title>
         <item>
-            <title>1.05</title>
-            <pubDate>Sat, 17 Oct 2026 19:54:39 +0300</pubDate>
-            <sparkle:version>107</sparkle:version>
-            <sparkle:shortVersionString>1.05</sparkle:shortVersionString>
+            <title>1.06</title>
+            <pubDate>Sat, 17 Oct 2026 22:03:12 +0300</pubDate>
+            <sparkle:version>108</sparkle:version>
+            <sparkle:shortVersionString>1.06</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Display Toggle 1.05
+            <description sparkle:format="markdown"><![CDATA[# Display Toggle 1.06
 
 ## Fix
 
 - When the MacBook lid is closed and an external display is connected, the
-  built-in display now stays off. Its switch is locked in the menu while this
-  applies, and it is turned off again automatically if it comes back on. This
-  applies even when the "Built-in off with external" rule is turned off.
+  built-in display now turns off right away, even while the menu is open.
+- While that applies, the built-in display switch in the menu is locked and
+  cannot turn the built-in display back on.
 
 Requires macOS 13 Ventura or later. A purchase includes updates through Display
 Toggle 2.x.
 ]]></description>
-            <enclosure url="https://tinyrelay.app/updates/DisplayToggle-1.05.zip" length="2757992" type="application/octet-stream" sparkle:edSignature="hs51NDBxzT8/Nm3hL1pq/9yXvURB7U7WS0Ncsc7y1R43897QLqUeHUPw+JDNVtsD0J98v3G89Lv9Gu0o91RKBQ=="></enclosure>
+            <enclosure url="https://tinyrelay.app/updates/DisplayToggle-1.06.zip" length="2758260" type="application/octet-stream" sparkle:edSignature="zYlPD4shsdQGEwkFQKOYaShTkw/0LYH2zV7dPB+cw+EkYv6LUAllgj1YVANgQPmmIqinQk0wtdciMz0YIH2uAg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: aO8CNbsO+yuyot96a7ww+umVwSq5hqBzWFAAKGB/SXWmlOegGaK4vXK0R47WhnGfu2H3mmmkz9oiC9pQ+pD7Ag==
-length: 1524
+edSignature: dODGExrsGzV0uXf8Zb9mcxpgZ9meGhgwi+k3N/Soula1nIKYs3IrGZOV/RiW6y6MiPxmXh8Q8mEEw8NS2YF3Bg==
+length: 1489
 -->
