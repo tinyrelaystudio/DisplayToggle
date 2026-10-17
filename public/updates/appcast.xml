@@ -4,27 +4,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>DisplayToggle</title>
         <item>
-            <title>1.06</title>
-            <pubDate>Sat, 17 Oct 2026 22:03:12 +0300</pubDate>
-            <sparkle:version>108</sparkle:version>
-            <sparkle:shortVersionString>1.06</sparkle:shortVersionString>
+            <title>1.07</title>
+            <pubDate>Sat, 17 Oct 2026 22:23:01 +0300</pubDate>
+            <sparkle:version>109</sparkle:version>
+            <sparkle:shortVersionString>1.07</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Display Toggle 1.06
+            <description sparkle:format="markdown"><![CDATA[# Display Toggle 1.07
 
-## Fix
+## Changes
 
-- When the MacBook lid is closed and an external display is connected, the
-  built-in display now turns off right away, even while the menu is open.
-- While that applies, the built-in display switch in the menu is locked and
-  cannot turn the built-in display back on.
+- The display list in the menu no longer shows each display's resolution.
+  Each row now shows the display type and, for the main display, "Main display".
 
 Requires macOS 13 Ventura or later. A purchase includes updates through Display
 Toggle 2.x.
 ]]></description>
-            <enclosure url="https://tinyrelay.app/updates/DisplayToggle-1.06.zip" length="2758260" type="application/octet-stream" sparkle:edSignature="zYlPD4shsdQGEwkFQKOYaShTkw/0LYH2zV7dPB+cw+EkYv6LUAllgj1YVANgQPmmIqinQk0wtdciMz0YIH2uAg=="></enclosure>
+            <enclosure url="https://tinyrelay.app/updates/DisplayToggle-1.07.zip" length="2758277" type="application/octet-stream" sparkle:edSignature="jTpyafoydKt1KCsyZpevuGq3ysa5rIUUMJrqH7z3cm9IuVNxqC11PcriuTFNhcg4sEm5/tcQdioIWvHAX/Q9Aw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: dODGExrsGzV0uXf8Zb9mcxpgZ9meGhgwi+k3N/Soula1nIKYs3IrGZOV/RiW6y6MiPxmXh8Q8mEEw8NS2YF3Bg==
-length: 1489
+edSignature: L6LP86R2szAgOkthHW3tvXIgn9P3H3/PIQNRSbYZ/wWez7Z0aHKOOaXrGpVr+js9V7q52CqUjyGFEMSiZRcCDQ==
+length: 1379
 -->
