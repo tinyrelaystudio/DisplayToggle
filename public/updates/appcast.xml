@@ -4,29 +4,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>DisplayToggle</title>
         <item>
-            <title>1.04</title>
-            <pubDate>Mon, 12 Oct 2026 23:33:09 +0300</pubDate>
-            <sparkle:version>106</sparkle:version>
-            <sparkle:shortVersionString>1.04</sparkle:shortVersionString>
+            <title>1.05</title>
+            <pubDate>Sat, 17 Oct 2026 19:54:39 +0300</pubDate>
+            <sparkle:version>107</sparkle:version>
+            <sparkle:shortVersionString>1.05</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Display Toggle 1.04
+            <description sparkle:format="markdown"><![CDATA[# Display Toggle 1.05
 
-## New
+## Fix
 
-- New Rules section in the menu. The first rule, "Built-in off with external,"
-  is on by default: while an external display is connected, the built-in
-  display is turned off and its switch is locked. Unplugging the external
-  display turns the built-in display back on.
-- Checks for updates when the app starts and every hour. When an update is
-  available, the menu shows "Update Available" at the top of the update item.
+- When the MacBook lid is closed and an external display is connected, the
+  built-in display now stays off. Its switch is locked in the menu while this
+  applies, and it is turned off again automatically if it comes back on. This
+  applies even when the "Built-in off with external" rule is turned off.
 
 Requires macOS 13 Ventura or later. A purchase includes updates through Display
 Toggle 2.x.
 ]]></description>
-            <enclosure url="https://tinyrelay.app/updates/DisplayToggle-1.04.zip" length="2755672" type="application/octet-stream" sparkle:edSignature="e3NAfjwY0yAOUeCfyOFuMzi0rjwZRANLoc0rHYIiYTIp251IsnDMUCww0pIi1wKJcJYTAPXZ+3fO13ssPgI1BQ=="></enclosure>
+            <enclosure url="https://tinyrelay.app/updates/DisplayToggle-1.05.zip" length="2757992" type="application/octet-stream" sparkle:edSignature="hs51NDBxzT8/Nm3hL1pq/9yXvURB7U7WS0Ncsc7y1R43897QLqUeHUPw+JDNVtsD0J98v3G89Lv9Gu0o91RKBQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: qBQx1HFiUZPDPDAvRT3p7Rj1TjjxZ+XpevWWGtmaGf5EtBZPE+1YQanPAqkBeCQ8rdsfYpzuB7Mbp6rRmwQgAw==
-length: 1645
+edSignature: aO8CNbsO+yuyot96a7ww+umVwSq5hqBzWFAAKGB/SXWmlOegGaK4vXK0R47WhnGfu2H3mmmkz9oiC9pQ+pD7Ag==
+length: 1524
 -->
